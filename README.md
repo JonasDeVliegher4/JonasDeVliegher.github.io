@@ -1,15 +1,16 @@
 # Hi, I'm Jonas De Vliegher
 
-Full-Stack Developer | Software Engineer | Open Source Enthusiast
+Full-Stack Developer | Software Engineer 
 
 ## 🚀 About Me
 
 I'm a passionate developer who enjoys building web applications, automation tools, and solving complex problems.
 
-- 🌍 Based in [Location]
+- 🌍 Based in Belgium, Lokeren
 - 💼 Open to opportunities
-- 🎯 Currently learning [Technology]
-- ⚡ Fun fact: [Something interesting]
+- I like to work in .NET workspaces
+- Would like to work in a team
+- Would like help make large sofware projects
 
 ## 🛠️ Tech Stack
 
@@ -18,6 +19,9 @@ I'm a passionate developer who enjoys building web applications, automation tool
 - TypeScript
 - Python
 - Java
+- C#
+- C++
+- C
 
 ### Frontend
 - React
@@ -28,15 +32,12 @@ I'm a passionate developer who enjoys building web applications, automation tool
 
 ### Backend
 - Node.js
-- Express
 - PostgreSQL
 - MongoDB
 
 ### Tools
 - Git
 - Docker
-- GitHub Actions
-- AWS
 
 ## 📂 Featured Projects
 
@@ -60,6 +61,6 @@ Short description of what it does.
 
 ## 📫 Contact
 
-- Email: your@email.com
-- LinkedIn: your-linkedin
-- GitHub: https://github.com/YOUR_USERNAME
+- Email: devliegherjonas@gmail.com
+- LinkedIn: www.linkedin.com/in/jonasdevliegher-21580a300
+- GitHub: https://github.com/JonasDeVliegher4
