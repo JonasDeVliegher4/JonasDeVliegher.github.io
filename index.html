@@ -1,60 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Developer Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonas De Vliegher — Full-Stack Developer</title>
+  <meta name="description" content="Full-Stack Developer gebaseerd in Lokeren, België. C#, .NET, React, TypeScript." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-  <h1>Your Name</h1>
-  <p>Full-Stack Developer</p>
-</header>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <span class="nav-logo">jDV_</span>
+    <div class="nav-links">
+      <a href="#projects">werk</a>
+      <a href="#skills">skills</a>
+      <a href="#about">over</a>
+      <a href="#contact">contact</a>
+    </div>
+  </nav>
 
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    Passionate developer focused on building scalable and user-friendly
-    applications.
-  </p>
-</section>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="badge fade-up">
+      <span class="pulse-dot"></span>
+      beschikbaar voor werk
+    </div>
+    <h1 class="hero-title fade-up d1">
+      Jonas De Vliegher<br>
+      <span class="dim">Full-Stack Developer.</span>
+    </h1>
+    <p class="hero-stack fade-up d2">C# · .NET · React · TypeScript · Node.js</p>
+    <p class="hero-bio fade-up d3">
+      Ik bouw webapplicaties van database tot interface — van kleinschalige tools
+      tot grote softwareprojecten in teamverband. Gebaseerd in Lokeren, België.
+    </p>
+    <div class="hero-actions fade-up d4">
+      <a href="#projects" class="btn-primary">bekijk projecten</a>
+      <a href="https://github.com/JonasDeVliegher4" target="_blank" rel="noopener noreferrer" class="btn-secondary">github →</a>
+    </div>
+  </section>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>JavaScript</span>
-    <span>React</span>
-    <span>Node.js</span>
-    <span>Python</span>
-    <span>Docker</span>
-    <span>AWS</span>
-  </div>
-</section>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <span class="section-label">// geselecteerde projecten</span>
+    <div class="projects-grid">
 
-<section id="projects">
-  <h2>Projects</h2>
+      <!-- Stage -->
+      <div class="project-card featured">
+        <div class="card-top">
+          <div>
+            <span class="type-badge badge-stage">stage</span>
+            <h3 class="project-title">DATAshaper Web App</h3>
+          </div>
+          <div class="card-links">
+            <a href="https://www.linkedin.com/in/jonasdevliegher-21580a300" target="_blank" rel="noopener noreferrer" title="LinkedIn">in</a>
+          </div>
+        </div>
+        <p class="project-desc">
+          Stageopdracht bij DATAshaper: onderzocht hoe klanten kunnen overstappen van een legacy
+          Excel add-in naar een moderne webapplicatie. Ontwikkelde een intern proof-of-concept
+          en adoptieplan voor het sales-team.
+        </p>
+        <p class="project-context">
+          Omdat de broncode eigendom is van DATAshaper, zijn er geen publieke bestanden beschikbaar. Meer info via LinkedIn.
+        </p>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">ADKAR</span>
+          <span class="tag">Change Management</span>
+        </div>
+      </div>
 
-  <div class="project-card">
-    <h3>Project One</h3>
-    <p>Short project description.</p>
-    <a href="#">GitHub</a>
-    <a href="#">Live Demo</a>
-  </div>
+      <!-- Schoolproject 2 -->
+      <div class="project-card">
+        <div class="card-top">
+          <div>
+            <span class="type-badge badge-school">schoolproject</span>
+            <h3 class="project-title">Schoolproject twee</h3>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/JonasDeVliegher4" target="_blank" rel="noopener noreferrer" title="GitHub">gh</a>
+          </div>
+        </div>
+        <p class="project-desc">
+          Voeg hier jouw echte projectomschrijving in. Wat doet het, welk probleem lost het op?
+        </p>
+        <div class="tags">
+          <span class="tag">C#</span>
+          <span class="tag">.NET</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+      </div>
 
-  <div class="project-card">
-    <h3>Project Two</h3>
-    <p>Short project description.</p>
-    <a href="#">GitHub</a>
-    <a href="#">Live Demo</a>
-  </div>
-</section>
+      <!-- Schoolproject 3 -->
+      <div class="project-card">
+        <div class="card-top">
+          <div>
+            <span class="type-badge badge-school">schoolproject</span>
+            <h3 class="project-title">Schoolproject drie</h3>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/JonasDeVliegher4" target="_blank" rel="noopener noreferrer" title="GitHub">gh</a>
+          </div>
+        </div>
+        <p class="project-desc">
+          Voeg hier jouw echte projectomschrijving in. Wat doet het, welk probleem lost het op?
+        </p>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">MongoDB</span>
+        </div>
+      </div>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-</section>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <span class="section-label">// skills & tooling</span>
+    <div class="skills-grid">
+      <div>
+        <span class="skill-category">talen</span>
+        <div class="pills">
+          <span class="pill">C#</span>
+          <span class="pill">TypeScript</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">Python</span>
+          <span class="pill">Java</span>
+          <span class="pill">C++</span>
+          <span class="pill">C</span>
+        </div>
+      </div>
+      <div>
+        <span class="skill-category">frontend</span>
+        <div class="pills">
+          <span class="pill">React</span>
+          <span class="pill">Next.js</span>
+          <span class="pill">Tailwind CSS</span>
+          <span class="pill">HTML</span>
+          <span class="pill">CSS</span>
+        </div>
+      </div>
+      <div>
+        <span class="skill-category">backend</span>
+        <div class="pills">
+          <span class="pill">Node.js</span>
+          <span class="pill">.NET</span>
+          <span class="pill">REST API</span>
+        </div>
+      </div>
+      <div>
+        <span class="skill-category">databases</span>
+        <div class="pills">
+          <span class="pill">PostgreSQL</span>
+          <span class="pill">MongoDB</span>
+        </div>
+      </div>
+      <div>
+        <span class="skill-category">tooling</span>
+        <div class="pills">
+          <span class="pill">Git</span>
+          <span class="pill">Docker</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <span class="section-label">// over mij</span>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Hoi! Ik ben <strong>Jonas De Vliegher</strong>, een full-stack developer uit Lokeren.
+          Ik werk graag aan grote softwareprojecten in teamverband — van een strak frontend
+          tot een robuuste backend.
+        </p>
+        <p>
+          Ik werk het liefst in <strong>.NET-omgevingen</strong> en heb ervaring met zowel
+          webapplicaties als automatisatietools. Tijdens mijn stage bij DATAshaper werkte ik
+          aan de overstap van een legacy Excel add-in naar een moderne webapplicatie.
+        </p>
+        <p>
+          Momenteel afgestudeerd en actief op zoek naar een eerste vaste job als developer,
+          bij voorkeur in een team dat grote, complexe projecten aanpakt.
+        </p>
+      </div>
+      <div class="meta">
+        <div class="meta-item">
+          <span class="meta-key">locatie</span>
+          <span class="meta-val">Lokeren, België</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-key">beschikbaar</span>
+          <span class="meta-val">ja</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-key">voorkeur</span>
+          <span class="meta-val">.NET · teamwerk · grote projecten</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-key">cv</span>
+          <a href="/cv.pdf" class="meta-link">download pdf →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <span class="section-label">// contact</span>
+    <h2 class="contact-heading">Laten we samenwerken.</h2>
+    <p class="contact-sub">
+      Op zoek naar een full-stack developer? Stuur me een bericht — ik reageer zo snel mogelijk.
+    </p>
+    <a href="mailto:devliegherjonas@gmail.com" class="email-btn">
+      devliegherjonas@gmail.com →
+    </a>
+    <div class="socials">
+      <a href="https://github.com/JonasDeVliegher4" target="_blank" rel="noopener noreferrer">github</a>
+      <a href="https://www.linkedin.com/in/jonasdevliegher-21580a300" target="_blank" rel="noopener noreferrer">linkedin</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2025 Jonas De Vliegher</span>
+    <span>full-stack developer · lokeren, belgië</span>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+  </script>
 
 </body>
 </html>
