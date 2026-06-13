@@ -1,43 +1,29 @@
-# Hi, I'm Jonas De Vliegher
+# Hi, I'm Jonas De Vliegher 👋
 
-Full-Stack Developer | Software Engineer 
+**Full-Stack Developer · Software Engineer**
 
 ## 🚀 About Me
 
-I'm a passionate developer who enjoys building web applications, automation tools, and solving complex problems.
+I'm a passionate developer who enjoys building web applications, automation tools, and solving complex problems. I'm currently finishing my bachelor's degree in application development and looking to join a team working on large-scale software projects.
 
-- 🌍 Based in Belgium, Lokeren
-- 💼 Open to opportunities
-- I like to work in .NET workspaces
-- Would like to work in a team
-- Would like help make large sofware projects
+- 🌍 Based in Lokeren, Belgium
+- 💼 Open to new opportunities
+- 🖥️ Comfortable in .NET ecosystems
+- 🤝 Looking to collaborate on meaningful, large-scale software projects
 
 ## 🛠️ Tech Stack
 
 ### Languages
-- JavaScript
-- TypeScript
-- Python
-- Java
-- C#
-- C++
-- C
+`JavaScript` `TypeScript` `Python` `Java` `C#` `C++` `C`
 
 ### Frontend
-- React
-- Next.js
-- HTML
-- CSS
-- Tailwind CSS
+`React` `Next.js` `HTML` `CSS` `Tailwind CSS`
 
 ### Backend
-- Node.js
-- PostgreSQL
-- MongoDB
+`Node.js` `PostgreSQL` `MongoDB`
 
 ### Tools
-- Git
-- Docker
+`Git` `Docker`
 
 ## 📂 Featured Projects
 
@@ -46,21 +32,21 @@ Short description of what it does.
 
 **Tech:** React, Node.js, PostgreSQL
 
-🔗 Demo: https://your-demo-link.com
+🔗 [Live Demo](https://your-demo-link.com)
 
 ### Project Two
 Short description of what it does.
 
 **Tech:** Python, FastAPI, Docker
 
-🔗 Demo: https://your-demo-link.com
+🔗 [Live Demo](https://your-demo-link.com)
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=JonasDeVliegher4&show_icons=true)
 
 ## 📫 Contact
 
-- Email: devliegherjonas@gmail.com
-- LinkedIn: www.linkedin.com/in/jonasdevliegher-21580a300
-- GitHub: https://github.com/JonasDeVliegher4
+- 📧 Email: [devliegherjonas@gmail.com](mailto:devliegherjonas@gmail.com)
+- 💼 LinkedIn: [Jonas De Vliegher](https://www.linkedin.com/in/jonasdevliegher-21580a300)
+- 🐙 GitHub: [JonasDeVliegher4](https://github.com/JonasDeVliegher4)
